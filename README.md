@@ -1,6 +1,34 @@
 # Quallity-nc-capa-analytics
 Quality NC &amp; CAPA analysis using Excel, PostgreSQL and Power BI
 
+![image alt](https://github.com/sheenshaji96-wq/Quallity-nc-capa-analytics/blob/9e750ad7cb2aa870862be5bf0a59c9a3ff59bc44/Screenshot%202025-12-30%20183536.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 | nc_id      | nc_date             | nc_category    | severity_score | risk_score | capa_status | capa_days | overdue  |
 |------------|---------------------|----------------|----------------|------------|-------------|-----------|----------|
 | INSP-0001  | 2024-06-01T15:22:17 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
