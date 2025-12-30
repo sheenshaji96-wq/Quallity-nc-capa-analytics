@@ -1,203 +1,205 @@
 # Quallity-nc-capa-analytics
 Quality NC &amp; CAPA analysis using Excel, PostgreSQL and Power BI
-nc_id;nc_date;nc_category;severity_score;risk_score;capa_status;capa_days;overdue 
-INSP-0001;2024-06-01T15:22:17;No Defect;0;0;Closed;7;Yes
-INSP-0002;2024-06-02T09:18:43;No Defect;0;0;Closed;7;Yes
-INSP-0003;2024-06-04T00:43:11;Scratch;1;1;Closed;14;No
-INSP-0004;2024-06-03T16:08:29;No Defect;0;0;Closed;7;Yes
-INSP-0005;2024-06-04T08:42:14;Marking;2;4;Closed;14;No
-INSP-0006;2024-06-05T15:17:05;Misalignment;3;21;Closed;14;Yes
-INSP-0007;2024-06-07T01:02:39;Contamination;3;15;Closed;14;Yes
-INSP-0008;2024-06-07T10:40:15;Mislabel;2;6;Closed;14;Yes
-INSP-0009;2024-06-08T14:55:21;No Defect;0;0;Closed;7;Yes
-INSP-0010;2024-06-10T00:31:46;Major_Crack;4;68;Closed;30;No
-INSP-0011;2024-06-10T16:11:34;No Defect;0;0;Closed;7;Yes
-INSP-0012;2024-06-11T11:23:47;No Defect;0;0;Closed;7;Yes
-INSP-0013;2024-06-12T15:03:58;Dent;2;2;Open;;Yes
-INSP-0014;2024-06-14T02:12:38;Cracking;4;60;Closed;30;No
-INSP-0015;2024-06-14T09:36:51;No Defect;0;0;Closed;7;Yes
-INSP-0016;2024-06-15T16:21:07;Discoloration;1;1;Open;;Yes
-INSP-0017;2024-06-17T01:19:53;Contamination;3;24;Closed;14;No
-INSP-0018;2024-06-17T15:46:39;No Defect;0;0;Closed;7;Yes
-INSP-0019;2024-06-18T10:15:04;No Defect;0;0;Closed;7;No
-INSP-0020;2024-06-19T15:02:12;Scratch;1;2;Open;;Yes
-INSP-0021;2024-06-21T03:00:59;Misalignment;4;24;Closed;30;No
-INSP-0022;2024-06-21T14:44:28;No Defect;0;0;Closed;7;Yes
-INSP-0023;2024-06-22T09:59:01;Marking;2;2;Closed;14;No
-INSP-0024;2024-06-23T14:33:56;No Defect;0;0;Closed;7;Yes
-INSP-0025;2024-06-25T01:17:31;Contamination;3;12;Closed;14;No
-INSP-0026;2024-06-25T11:04:24;No Defect;0;0;Closed;7;Yes
-INSP-0027;2024-06-26T15:57:09;Dent;1;1;Closed;14;Yes
-INSP-0028;2024-06-28T00:27:17;Cracking;3;27;Closed;14;Yes
-INSP-0029;2024-06-28T10:27:13;No Defect;0;0;Closed;7;Yes
-INSP-0030;2024-06-29T16:36:21;No Defect;0;0;Closed;7;Yes
-INSP-0031;2024-07-01T02:37:55;Major_Crack;4;76;Closed;30;No
-INSP-0032;2024-05-20T09:07:01;No Defect;0;0;Closed;7;Yes
-INSP-0033;2024-05-21T16:12:05;No Defect;0;0;Closed;7;Yes
-INSP-0034;2024-05-23T00:45:37;Mislabel;3;12;Closed;14;Yes
-INSP-0035;2024-05-23T08:31:46;No Defect;0;0;Closed;7;Yes
-INSP-0036;2024-05-24T14:10:09;Scratch;2;4;Open;;Yes
-INSP-0037;2024-05-26T01:16:27;Cracking;3;15;Closed;14;No
-INSP-0038;2024-05-26T10:06:53;No Defect;0;0;Closed;7;No
-INSP-0039;2024-05-27T15:35:11;Discoloration;2;4;Closed;14;No
-INSP-0040;2024-05-29T02:55:43;Misalignment;4;40;Open;;Yes
-INSP-0041;2024-05-29T08:30:17;No Defect;0;0;Closed;7;Yes
-INSP-0042;2024-05-30T16:01:33;Marking;2;4;Closed;14;Yes
-INSP-0043;2024-06-01T00:57:28;Cracking;4;64;Open;;Yes
-INSP-0044;2024-05-15T10:18:09;No Defect;0;0;Closed;7;No
-INSP-0045;2024-01-01T14:29:15;No Defect;0;0;Closed;7;Yes
-INSP-0046;2023-03-01T01:18:49;Major_Crack;4;80;Closed;30;No
-INSP-0047;2024-05-03T08:46:22;No Defect;0;0;Closed;7;Yes
-INSP-0048;2024-05-04T14:31:01;No Defect;0;0;Closed;7;Yes
-INSP-0049;2024-05-06T00:10:04;Contamination;3;15;Open;;Yes
-INSP-0050;2024-05-06T15:20:38;No Defect;0;0;Closed;7;Yes
-INSP-20001;2024-06-01T09:23:00;No Defect;0;0;Closed;7;Yes
-INSP-20002;2024-06-01T15:34:00;Scratch;1;1;Closed;14;Yes
-INSP-20003;2024-06-02T00:45:00;Misalignment;3;15;Closed;14;Yes
-INSP-20004;2024-06-01T10:12:00;No Defect;0;0;Closed;7;Yes
-INSP-20005;2024-06-02T14:19:00;No Defect;0;0;Closed;7;Yes
-INSP-20006;2024-06-03T01:03:00;Contamination;4;32;Closed;30;No
-INSP-20007;2024-06-02T08:55:00;No Defect;0;0;Closed;7;No
-INSP-20008;2024-06-03T16:10:00;Marking;2;4;Open;;Yes
-INSP-20009;2024-06-04T01:44:00;Cracking;3;12;Closed;14;Yes
-INSP-20010;2024-06-03T11:27:00;No Defect;0;0;Closed;7;Yes
-INSP-20011;2024-06-04T15:48:00;Dent;1;2;Closed;14;Yes
-INSP-20012;2024-06-05T02:09:00;Mislabel;4;40;Closed;30;No
-INSP-20013;2024-06-04T08:31:00;No Defect;0;0;Closed;7;Yes
-INSP-20014;2024-06-05T16:51:00;Discoloration;2;4;Closed;14;No
-INSP-20015;2024-06-06T00:14:00;Misalignment;3;18;Closed;14;Yes
-INSP-20016;2024-06-05T09:14:00;No Defect;0;0;Closed;7;Yes
-INSP-20017;2024-06-06T14:55:00;Marking;1;2;Closed;14;Yes
-INSP-20018;2024-06-07T01:12:00;Contamination;4;28;Closed;30;No
-INSP-20019;2024-06-06T10:44:00;No Defect;0;0;Closed;7;Yes
-INSP-20020;2024-06-07T16:02:00;Foreign_Object;2;4;Closed;14;No
-INSP-20021;2024-06-08T00:29:00;Major_Crack;4;76;Closed;30;No
-INSP-20022;2024-06-07T09:07:00;No Defect;0;0;Closed;7;Yes
-INSP-20023;2024-06-08T15:29:00;Dent;1;1;Closed;14;No
-INSP-20024;2024-06-09T02:55:00;Cracking;4;48;Closed;30;No
-INSP-20025;2024-06-08T11:46:00;No Defect;0;0;Closed;7;Yes
-INSP-20026;2024-06-09T16:44:00;Scratch;1;1;Closed;14;No
-INSP-20027;2024-06-10T00:58:00;Cracking;3;15;Closed;14;Yes
-INSP-20028;2024-06-09T08:18:00;No Defect;0;0;Closed;7;No
-INSP-20029;2024-06-10T15:41:00;Discoloration;2;4;Closed;14;Yes
-INSP-20030;2024-06-11T02:06:00;Contamination;4;36;Closed;30;Yes
-INSP-20031;2024-06-10T10:56:00;No Defect;0;0;Closed;7;Yes
-INSP-20032;2024-06-11T14:22:00;Scratch;1;1;Closed;14;No
-INSP-20033;2024-06-12T01:21:00;Cracking;4;44;Closed;30;No
-INSP-20034;2024-06-11T10:13:00;No Defect;0;0;Closed;7;Yes
-INSP-20035;2024-06-12T15:34:00;Foreign_Object;2;4;Closed;14;Yes
-INSP-20036;2024-06-13T02:18:00;Mislabel;3;21;Open;;Yes
-INSP-20037;2024-06-12T09:28:00;No Defect;0;0;Closed;7;No
-INSP-20038;2024-06-13T16:53:00;Scratch;1;1;Closed;14;Yes
-INSP-20039;2024-06-14T02:28:00;Misalignment;3;18;Closed;14;No
-INSP-20040;2024-06-13T11:10:00;No Defect;0;0;Closed;7;Yes
-INSP-20041;2024-06-14T15:46:00;Discoloration;2;4;Closed;14;Yes
-INSP-20042;2024-06-15T01:33:00;Contamination;4;32;Closed;30;Yes
-INSP-20043;2024-06-14T11:52:00;No Defect;0;0;Closed;7;Yes
-INSP-20044;2024-06-15T14:21:00;Scratch;1;1;Closed;14;Yes
-INSP-20045;2024-06-16T00:19:00;Major_Crack;4;72;Closed;30;No
-INSP-20046;2024-06-15T09:58:00;No Defect;0;0;Closed;7;Yes
-INSP-20047;2024-06-16T16:02:00;Foreign_Object;2;4;Closed;14;Yes
-INSP-20048;2024-06-17T02:18:00;Mislabel;3;21;Closed;14;No
-INSP-20049;2024-06-16T08:26:00;No Defect;0;0;Closed;7;Yes
-INSP-20050;2024-06-17T16:41:00;Scratch;1;1;Closed;14;Yes
-INSP-20001;2024-06-07T08:43:11;No Defect;0;0;Closed;7;Yes
-INSP-20002;2024-06-06T15:02:46;No Defect;0;0;Closed;7;Yes
-INSP-20003;2024-06-08T00:37:05;No Defect;0;0;Closed;7;Yes
-INSP-20004;2024-06-05T15:22:21;No Defect;0;0;Closed;7;No
-INSP-20005;2024-06-06T10:54:16;No Defect;0;0;Closed;7;Yes
-INSP-20006;2024-06-07T01:13:38;No Defect;0;0;Closed;7;Yes
-INSP-20007;2024-06-07T09:22:41;No Defect;0;0;Closed;7;Yes
-INSP-20008;2024-06-05T16:13:19;No Defect;0;0;Closed;7;Yes
-INSP-20009;2024-06-05T00:21:56;No Defect;0;0;Closed;7;Yes
-INSP-20010;2024-06-07T08:58:13;No Defect;0;0;Closed;7;Yes
-INSP-20011;2024-06-05T15:54:12;Scratch;1;1;Closed;14;Yes
-INSP-20012;2024-06-04T10:15:04;Dent;1;2;Closed;14;Yes
-INSP-20013;2024-06-06T15:11:17;Marking;2;4;Closed;14;Yes
-INSP-20014;2024-06-04T11:09:43;Discoloration;1;1;Closed;14;Yes
-INSP-20015;2024-06-06T16:34:20;Foreign_Object;2;4;Closed;14;Yes
-INSP-20016;2024-06-07T09:43:29;Marking;2;2;Open;;Yes
-INSP-20017;2024-06-04T15:37:49;Scratch;1;1;Open;;Yes
-INSP-20018;2024-06-05T14:21:37;Discoloration;2;4;Closed;14;Yes
-INSP-20019;2024-06-07T11:12:05;Misalignment;3;12;Closed;14;No
-INSP-20020;2024-06-07T02:48:18;Contamination;3;15;Closed;14;No
-INSP-20021;2024-06-05T14:23:59;Mislabel;4;28;Closed;30;Yes
-INSP-20022;2024-06-05T02:22:46;Cracking;3;15;Open;;Yes
-INSP-20023;2024-06-08T01:16:44;Contamination;3;18;Closed;14;Yes
-INSP-20024;2024-06-06T15:18:30;Misalignment;4;36;Closed;30;No
-INSP-20025;2024-06-06T01:36:59;Cracking;4;32;Open;;Yes
-INSP-20026;2024-06-07T16:58:22;Mislabel;3;30;Closed;14;Yes
-INSP-20027;2024-06-07T01:23:41;Major_Crack;4;80;Closed;30;No
-INSP-20028;2024-06-05T00:06:12;Major_Crack;4;76;Open;;Yes
-INSP-20029;2024-06-07T10:40:17;Cracking;4;72;Open;;Yes
-INSP-20030;2024-06-06T14:44:56;Major_Crack;4;64;Open;;Yes
-INSP-20031;2024-06-05T09:32:28;Major_Crack;4;68;Open;;Yes
-INSP-20032;2024-06-08T00:29:44;Cracking;4;60;Open;;Yes
-INSP-20033;2024-06-06T11:45:53;No Defect;0;0;Closed;7;No
-INSP-20034;2024-06-04T08:21:19;No Defect;0;0;Closed;7;Yes
-INSP-20035;2024-06-07T15:09:36;No Defect;0;0;Closed;7;No
-INSP-20036;2024-06-06T08:56:41;No Defect;0;0;Closed;7;Yes
-INSP-20037;2024-06-05T14:08:27;No Defect;0;0;Closed;7;Yes
-INSP-20038;2024-06-07T09:55:11;No Defect;0;0;Closed;7;Yes
-INSP-20039;2024-06-06T16:25:32;No Defect;0;0;Closed;7;Yes
-INSP-20040;2024-06-04T08:12:55;No Defect;0;0;Closed;7;Yes
-INSP-20041;2024-06-05T15:05:16;No Defect;0;0;Closed;7;Yes
-INSP-20042;2024-06-07T10:16:29;No Defect;0;0;Closed;7;Yes
-INSP-20043;2024-06-06T15:14:57;No Defect;0;0;Closed;7;Yes
-INSP-20044;2024-06-04T14:51:14;No Defect;0;0;Closed;7;Yes
-INSP-20045;2024-06-07T09:59:46;No Defect;0;0;Closed;7;Yes
-INSP-20046;2024-06-06T16:13:39;Scratch;2;4;Closed;14;Yes
-INSP-20047;2024-06-04T10:39:03;Dent;1;1;Closed;14;Yes
-INSP-20048;2024-06-07T15:36:21;Marking;2;2;Open;;Yes
-INSP-20049;2024-06-06T08:22:44;Discoloration;2;4;Closed;14;No
-INSP-20050;2024-06-07T16:02:44;Foreign_Object;2;4;Closed;14;Yes
-INSP-0001;2024-06-01T09:25:00;No Defect;0;0;Closed;7;Yes
-INSP-0002;2024-06-01T15:10:00;Scratch;1;1;Closed;14;Yes
-INSP-0003;2024-06-03T01:47:00;Misalignment;3;15;Closed;14;No
-INSP-0004;2024-06-02T16:15:00;Marking;2;4;Closed;14;Yes
-INSP-0005;2024-06-03T10:35:00;No Defect;0;0;Closed;7;Yes
-INSP-0006;2024-06-03T15:53:00;No Defect;0;0;Closed;7;Yes
-INSP-0007;2024-06-05T00:58:00;Contamination;4;24;Open;;Yes
-INSP-0008;2024-06-04T16:02:00;Dent;2;4;Closed;14;Yes
-INSP-0009;2024-06-05T10:00:00;No Defect;0;0;Closed;7;No
-INSP-0010;2024-06-05T15:05:00;Marking;1;1;Closed;14;Yes
-INSP-0011;2024-06-06T10:18:00;No Defect;0;0;Closed;7;Yes
-INSP-0012;2024-06-07T01:10:00;Mislabel;3;24;Open;;Yes
-INSP-0013;2024-06-07T15:35:00;Discoloration;2;2;Closed;14;No
-INSP-0014;2024-06-07T08:42:00;No Defect;0;0;Closed;7;Yes
-INSP-0015;2024-06-08T16:00:00;Cracking;4;28;Open;;Yes
-INSP-0016;2024-06-09T09:10:00;No Defect;0;0;Closed;7;Yes
-INSP-0017;2024-06-10T00:45:00;Contamination;3;12;Closed;14;Yes
-INSP-0018;2024-06-10T15:30:00;No Defect;0;0;Closed;7;Yes
-INSP-0019;2024-06-10T09:48:00;Dent;2;4;Closed;14;No
-INSP-0020;2024-06-11T14:22:00;No Defect;0;0;Closed;7;Yes
-INSP-0021;2024-06-12T00:30:00;Major_Crack;4;68;Open;;Yes
-INSP-0022;2024-06-12T15:00:00;No Defect;0;0;Closed;7;Yes
-INSP-0023;2024-06-12T11:45:00;No Defect;0;0;Closed;7;Yes
-INSP-0024;2024-06-13T16:10:00;Foreign_Object;1;1;Open;;Yes
-INSP-0025;2024-06-14T02:05:00;Cracking;3;15;Closed;14;Yes
-INSP-0026;2024-06-14T14:50:00;No Defect;0;0;Closed;7;Yes
-INSP-0027;2024-06-14T09:35:00;Discoloration;2;2;Open;;Yes
-INSP-0028;2024-06-15T14:35:00;Misalignment;4;40;Closed;30;No
-INSP-0029;2024-06-15T08:40:00;No Defect;0;0;Closed;7;No
-INSP-0030;2024-06-16T15:15:00;No Defect;0;0;Closed;7;Yes
-INSP-0031;2024-06-17T02:12:00;Contamination;3;18;Open;;Yes
-INSP-0032;2024-06-17T14:37:00;No Defect;0;0;Closed;7;Yes
-INSP-0033;2024-06-17T10:10:00;Scratch;1;2;Closed;14;No
-INSP-0034;2024-06-18T16:00:00;No Defect;0;0;Closed;7;Yes
-INSP-0035;2024-06-18T08:25:00;No Defect;0;0;Closed;7;Yes
-INSP-0036;2024-06-20T01:49:00;Mislabel;3;15;Open;;Yes
-INSP-0037;2024-06-19T14:25:00;Misalignment;4;32;Closed;30;No
-INSP-0038;2024-06-20T10:30:00;No Defect;0;0;Closed;7;Yes
-INSP-0039;2024-06-20T16:10:00;Marking;2;2;Closed;14;Yes
-INSP-0040;2024-06-21T09:10:00;No Defect;0;0;Closed;7;Yes
-INSP-0041;2024-06-22T01:30:00;No Defect;0;0;Closed;7;Yes
-INSP-0042;2024-06-22T15:40:00;Scratch;1;1;Closed;14;Yes
-INSP-0043;2024-06-22T11:15:00;No Defect;0;0;Closed;7;Yes
-INSP-0044;2024-06-23T14:10:00;Misalignment;4;36;Closed;30;Yes
-INSP-0045;2024-06-24T02:40:00;Major_Crack;4;76;Open;;Yes
-INSP-0046;2024-06-24T08:55:00;No Defect;0;0;Closed;7;Yes
-INSP-0047;2024-06-24T15:23:00;Dent;2;2;Closed;14;Yes
-INSP-0048;2024-06-26T00:03:00;Contamination;3;18;Open;;Yes
-INSP-0049;2024-06-25T14:57:00;No Defect;0;0;Closed;7;Yes
-INSP-0050;2024-06-26T11:13:00;No Defect;0;0;Closed;7;Yes
+
+| nc_id      | nc_date             | nc_category    | severity_score | risk_score | capa_status | capa_days | overdue  |
+|------------|---------------------|----------------|----------------|------------|-------------|-----------|----------|
+| INSP-0001  | 2024-06-01T15:22:17 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0002  | 2024-06-02T09:18:43 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0003  | 2024-06-04T00:43:11 | Scratch        | 1              | 1          | Closed      | 14        | No       |
+| INSP-0004  | 2024-06-03T16:08:29 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0005  | 2024-06-04T08:42:14 | Marking        | 2              | 4          | Closed      | 14        | No       |
+| INSP-0006  | 2024-06-05T15:17:05 | Misalignment   | 3              | 21         | Closed      | 14        | Yes      |
+| INSP-0007  | 2024-06-07T01:02:39 | Contamination  | 3              | 15         | Closed      | 14        | Yes      |
+| INSP-0008  | 2024-06-07T10:40:15 | Mislabel       | 2              | 6          | Closed      | 14        | Yes      |
+| INSP-0009  | 2024-06-08T14:55:21 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0010  | 2024-06-10T00:31:46 | Major_Crack    | 4              | 68         | Closed      | 30        | No       |
+| INSP-0011  | 2024-06-10T16:11:34 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0012  | 2024-06-11T11:23:47 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0013  | 2024-06-12T15:03:58 | Dent           | 2              | 2          | Open        |           | Yes      |
+| INSP-0014  | 2024-06-14T02:12:38 | Cracking       | 4              | 60         | Closed      | 30        | No       |
+| INSP-0015  | 2024-06-14T09:36:51 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0016  | 2024-06-15T16:21:07 | Discoloration  | 1              | 1          | Open        |           | Yes      |
+| INSP-0017  | 2024-06-17T01:19:53 | Contamination  | 3              | 24         | Closed      | 14        | No       |
+| INSP-0018  | 2024-06-17T15:46:39 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0019  | 2024-06-18T10:15:04 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-0020  | 2024-06-19T15:02:12 | Scratch        | 1              | 2          | Open        |           | Yes      |
+| INSP-0021  | 2024-06-21T03:00:59 | Misalignment   | 4              | 24         | Closed      | 30        | No       |
+| INSP-0022  | 2024-06-21T14:44:28 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0023  | 2024-06-22T09:59:01 | Marking        | 2              | 2          | Closed      | 14        | No       |
+| INSP-0024  | 2024-06-23T14:33:56 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0025  | 2024-06-25T01:17:31 | Contamination  | 3              | 12         | Closed      | 14        | No       |
+| INSP-0026  | 2024-06-25T11:04:24 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0027  | 2024-06-26T15:57:09 | Dent           | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-0028  | 2024-06-28T00:27:17 | Cracking       | 3              | 27         | Closed      | 14        | Yes      |
+| INSP-0029  | 2024-06-28T10:27:13 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0030  | 2024-06-29T16:36:21 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0031  | 2024-07-01T02:37:55 | Major_Crack    | 4              | 76         | Closed      | 30        | No       |
+| INSP-0032  | 2024-05-20T09:07:01 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0033  | 2024-05-21T16:12:05 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0034  | 2024-05-23T00:45:37 | Mislabel       | 3              | 12         | Closed      | 14        | Yes      |
+| INSP-0035  | 2024-05-23T08:31:46 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0036  | 2024-05-24T14:10:09 | Scratch        | 2              | 4          | Open        |           | Yes      |
+| INSP-0037  | 2024-05-26T01:16:27 | Cracking       | 3              | 15         | Closed      | 14        | No       |
+| INSP-0038  | 2024-05-26T10:06:53 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-0039  | 2024-05-27T15:35:11 | Discoloration  | 2              | 4          | Closed      | 14        | No       |
+| INSP-0040  | 2024-05-29T02:55:43 | Misalignment   | 4              | 40         | Open        |           | Yes      |
+| INSP-0041  | 2024-05-29T08:30:17 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0042  | 2024-05-30T16:01:33 | Marking        | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-0043  | 2024-06-01T00:57:28 | Cracking       | 4              | 64         | Open        |           | Yes      |
+| INSP-0044  | 2024-05-15T10:18:09 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-0045  | 2024-01-01T14:29:15 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0046  | 2023-03-01T01:18:49 | Major_Crack    | 4              | 80         | Closed      | 30        | No       |
+| INSP-0047  | 2024-05-03T08:46:22 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0048  | 2024-05-04T14:31:01 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0049  | 2024-05-06T00:10:04 | Contamination  | 3              | 15         | Open        |           | Yes      |
+| INSP-0050  | 2024-05-06T15:20:38 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20001 | 2024-06-01T09:23:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20002 | 2024-06-01T15:34:00 | Scratch        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-20003 | 2024-06-02T00:45:00 | Misalignment   | 3              | 15         | Closed      | 14        | Yes      |
+| INSP-20004 | 2024-06-01T10:12:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20005 | 2024-06-02T14:19:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20006 | 2024-06-03T01:03:00 | Contamination  | 4              | 32         | Closed      | 30        | No       |
+| INSP-20007 | 2024-06-02T08:55:00 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-20008 | 2024-06-03T16:10:00 | Marking        | 2              | 4          | Open        |           | Yes      |
+| INSP-20009 | 2024-06-04T01:44:00 | Cracking       | 3              | 12         | Closed      | 14        | Yes      |
+| INSP-20010 | 2024-06-03T11:27:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20011 | 2024-06-04T15:48:00 | Dent           | 1              | 2          | Closed      | 14        | Yes      |
+| INSP-20012 | 2024-06-05T02:09:00 | Mislabel       | 4              | 40         | Closed      | 30        | No       |
+| INSP-20013 | 2024-06-04T08:31:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20014 | 2024-06-05T16:51:00 | Discoloration  | 2              | 4          | Closed      | 14        | No       |
+| INSP-20015 | 2024-06-06T00:14:00 | Misalignment   | 3              | 18         | Closed      | 14        | Yes      |
+| INSP-20016 | 2024-06-05T09:14:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20017 | 2024-06-06T14:55:00 | Marking        | 1              | 2          | Closed      | 14        | Yes      |
+| INSP-20018 | 2024-06-07T01:12:00 | Contamination  | 4              | 28         | Closed      | 30        | No       |
+| INSP-20019 | 2024-06-06T10:44:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20020 | 2024-06-07T16:02:00 | Foreign_Object | 2              | 4          | Closed      | 14        | No       |
+| INSP-20021 | 2024-06-08T00:29:00 | Major_Crack    | 4              | 76         | Closed      | 30        | No       |
+| INSP-20022 | 2024-06-07T09:07:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20023 | 2024-06-08T15:29:00 | Dent           | 1              | 1          | Closed      | 14        | No       |
+| INSP-20024 | 2024-06-09T02:55:00 | Cracking       | 4              | 48         | Closed      | 30        | No       |
+| INSP-20025 | 2024-06-08T11:46:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20026 | 2024-06-09T16:44:00 | Scratch        | 1              | 1          | Closed      | 14        | No       |
+| INSP-20027 | 2024-06-10T00:58:00 | Cracking       | 3              | 15         | Closed      | 14        | Yes      |
+| INSP-20028 | 2024-06-09T08:18:00 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-20029 | 2024-06-10T15:41:00 | Discoloration  | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20030 | 2024-06-11T02:06:00 | Contamination  | 4              | 36         | Closed      | 30        | Yes      |
+| INSP-20031 | 2024-06-10T10:56:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20032 | 2024-06-11T14:22:00 | Scratch        | 1              | 1          | Closed      | 14        | No       |
+| INSP-20033 | 2024-06-12T01:21:00 | Cracking       | 4              | 44         | Closed      | 30        | No       |
+| INSP-20034 | 2024-06-11T10:13:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20035 | 2024-06-12T15:34:00 | Foreign_Object | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20036 | 2024-06-13T02:18:00 | Mislabel       | 3              | 21         | Open        |           | Yes      |
+| INSP-20037 | 2024-06-12T09:28:00 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-20038 | 2024-06-13T16:53:00 | Scratch        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-20039 | 2024-06-14T02:28:00 | Misalignment   | 3              | 18         | Closed      | 14        | No       |
+| INSP-20040 | 2024-06-13T11:10:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20041 | 2024-06-14T15:46:00 | Discoloration  | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20042 | 2024-06-15T01:33:00 | Contamination  | 4              | 32         | Closed      | 30        | Yes      |
+| INSP-20043 | 2024-06-14T11:52:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20044 | 2024-06-15T14:21:00 | Scratch        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-20045 | 2024-06-16T00:19:00 | Major_Crack    | 4              | 72         | Closed      | 30        | No       |
+| INSP-20046 | 2024-06-15T09:58:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20047 | 2024-06-16T16:02:00 | Foreign_Object | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20048 | 2024-06-17T02:18:00 | Mislabel       | 3              | 21         | Closed      | 14        | No       |
+| INSP-20049 | 2024-06-16T08:26:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20050 | 2024-06-17T16:41:00 | Scratch        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-20001 | 2024-06-07T08:43:11 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20002 | 2024-06-06T15:02:46 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20003 | 2024-06-08T00:37:05 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20004 | 2024-06-05T15:22:21 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-20005 | 2024-06-06T10:54:16 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20006 | 2024-06-07T01:13:38 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20007 | 2024-06-07T09:22:41 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20008 | 2024-06-05T16:13:19 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20009 | 2024-06-05T00:21:56 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20010 | 2024-06-07T08:58:13 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20011 | 2024-06-05T15:54:12 | Scratch        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-20012 | 2024-06-04T10:15:04 | Dent           | 1              | 2          | Closed      | 14        | Yes      |
+| INSP-20013 | 2024-06-06T15:11:17 | Marking        | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20014 | 2024-06-04T11:09:43 | Discoloration  | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-20015 | 2024-06-06T16:34:20 | Foreign_Object | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20016 | 2024-06-07T09:43:29 | Marking        | 2              | 2          | Open        |           | Yes      |
+| INSP-20017 | 2024-06-04T15:37:49 | Scratch        | 1              | 1          | Open        |           | Yes      |
+| INSP-20018 | 2024-06-05T14:21:37 | Discoloration  | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20019 | 2024-06-07T11:12:05 | Misalignment   | 3              | 12         | Closed      | 14        | No       |
+| INSP-20020 | 2024-06-07T02:48:18 | Contamination  | 3              | 15         | Closed      | 14        | No       |
+| INSP-20021 | 2024-06-05T14:23:59 | Mislabel       | 4              | 28         | Closed      | 30        | Yes      |
+| INSP-20022 | 2024-06-05T02:22:46 | Cracking       | 3              | 15         | Open        |           | Yes      |
+| INSP-20023 | 2024-06-08T01:16:44 | Contamination  | 3              | 18         | Closed      | 14        | Yes      |
+| INSP-20024 | 2024-06-06T15:18:30 | Misalignment   | 4              | 36         | Closed      | 30        | No       |
+| INSP-20025 | 2024-06-06T01:36:59 | Cracking       | 4              | 32         | Open        |           | Yes      |
+| INSP-20026 | 2024-06-07T16:58:22 | Mislabel       | 3              | 30         | Closed      | 14        | Yes      |
+| INSP-20027 | 2024-06-07T01:23:41 | Major_Crack    | 4              | 80         | Closed      | 30        | No       |
+| INSP-20028 | 2024-06-05T00:06:12 | Major_Crack    | 4              | 76         | Open        |           | Yes      |
+| INSP-20029 | 2024-06-07T10:40:17 | Cracking       | 4              | 72         | Open        |           | Yes      |
+| INSP-20030 | 2024-06-06T14:44:56 | Major_Crack    | 4              | 64         | Open        |           | Yes      |
+| INSP-20031 | 2024-06-05T09:32:28 | Major_Crack    | 4              | 68         | Open        |           | Yes      |
+| INSP-20032 | 2024-06-08T00:29:44 | Cracking       | 4              | 60         | Open        |           | Yes      |
+| INSP-20033 | 2024-06-06T11:45:53 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-20034 | 2024-06-04T08:21:19 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20035 | 2024-06-07T15:09:36 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-20036 | 2024-06-06T08:56:41 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20037 | 2024-06-05T14:08:27 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20038 | 2024-06-07T09:55:11 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20039 | 2024-06-06T16:25:32 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20040 | 2024-06-04T08:12:55 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20041 | 2024-06-05T15:05:16 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20042 | 2024-06-07T10:16:29 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20043 | 2024-06-06T15:14:57 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20044 | 2024-06-04T14:51:14 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20045 | 2024-06-07T09:59:46 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-20046 | 2024-06-06T16:13:39 | Scratch        | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-20047 | 2024-06-04T10:39:03 | Dent           | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-20048 | 2024-06-07T15:36:21 | Marking        | 2              | 2          | Open        |           | Yes      |
+| INSP-20049 | 2024-06-06T08:22:44 | Discoloration  | 2              | 4          | Closed      | 14        | No       |
+| INSP-20050 | 2024-06-07T16:02:44 | Foreign_Object | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-0001  | 2024-06-01T09:25:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0002  | 2024-06-01T15:10:00 | Scratch        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-0003  | 2024-06-03T01:47:00 | Misalignment   | 3              | 15         | Closed      | 14        | No       |
+| INSP-0004  | 2024-06-02T16:15:00 | Marking        | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-0005  | 2024-06-03T10:35:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0006  | 2024-06-03T15:53:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0007  | 2024-06-05T00:58:00 | Contamination  | 4              | 24         | Open        |           | Yes      |
+| INSP-0008  | 2024-06-04T16:02:00 | Dent           | 2              | 4          | Closed      | 14        | Yes      |
+| INSP-0009  | 2024-06-05T10:00:00 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-0010  | 2024-06-05T15:05:00 | Marking        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-0011  | 2024-06-06T10:18:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0012  | 2024-06-07T01:10:00 | Mislabel       | 3              | 24         | Open        |           | Yes      |
+| INSP-0013  | 2024-06-07T15:35:00 | Discoloration  | 2              | 2          | Closed      | 14        | No       |
+| INSP-0014  | 2024-06-07T08:42:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0015  | 2024-06-08T16:00:00 | Cracking       | 4              | 28         | Open        |           | Yes      |
+| INSP-0016  | 2024-06-09T09:10:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0017  | 2024-06-10T00:45:00 | Contamination  | 3              | 12         | Closed      | 14        | Yes      |
+| INSP-0018  | 2024-06-10T15:30:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0019  | 2024-06-10T09:48:00 | Dent           | 2              | 4          | Closed      | 14        | No       |
+| INSP-0020  | 2024-06-11T14:22:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0021  | 2024-06-12T00:30:00 | Major_Crack    | 4              | 68         | Open        |           | Yes      |
+| INSP-0022  | 2024-06-12T15:00:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0023  | 2024-06-12T11:45:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0024  | 2024-06-13T16:10:00 | Foreign_Object | 1              | 1          | Open        |           | Yes      |
+| INSP-0025  | 2024-06-14T02:05:00 | Cracking       | 3              | 15         | Closed      | 14        | Yes      |
+| INSP-0026  | 2024-06-14T14:50:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0027  | 2024-06-14T09:35:00 | Discoloration  | 2              | 2          | Open        |           | Yes      |
+| INSP-0028  | 2024-06-15T14:35:00 | Misalignment   | 4              | 40         | Closed      | 30        | No       |
+| INSP-0029  | 2024-06-15T08:40:00 | No Defect      | 0              | 0          | Closed      | 7         | No       |
+| INSP-0030  | 2024-06-16T15:15:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0031  | 2024-06-17T02:12:00 | Contamination  | 3              | 18         | Open        |           | Yes      |
+| INSP-0032  | 2024-06-17T14:37:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0033  | 2024-06-17T10:10:00 | Scratch        | 1              | 2          | Closed      | 14        | No       |
+| INSP-0034  | 2024-06-18T16:00:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0035  | 2024-06-18T08:25:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0036  | 2024-06-20T01:49:00 | Mislabel       | 3              | 15         | Open        |           | Yes      |
+| INSP-0037  | 2024-06-19T14:25:00 | Misalignment   | 4              | 32         | Closed      | 30        | No       |
+| INSP-0038  | 2024-06-20T10:30:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0039  | 2024-06-20T16:10:00 | Marking        | 2              | 2          | Closed      | 14        | Yes      |
+| INSP-0040  | 2024-06-21T09:10:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0041  | 2024-06-22T01:30:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0042  | 2024-06-22T15:40:00 | Scratch        | 1              | 1          | Closed      | 14        | Yes      |
+| INSP-0043  | 2024-06-22T11:15:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0044  | 2024-06-23T14:10:00 | Misalignment   | 4              | 36         | Closed      | 30        | Yes      |
+| INSP-0045  | 2024-06-24T02:40:00 | Major_Crack    | 4              | 76         | Open        |           | Yes      |
+| INSP-0046  | 2024-06-24T08:55:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0047  | 2024-06-24T15:23:00 | Dent           | 2              | 2          | Closed      | 14        | Yes      |
+| INSP-0048  | 2024-06-26T00:03:00 | Contamination  | 3              | 18         | Open        |           | Yes      |
+| INSP-0049  | 2024-06-25T14:57:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
+| INSP-0050  | 2024-06-26T11:13:00 | No Defect      | 0              | 0          | Closed      | 7         | Yes      |
